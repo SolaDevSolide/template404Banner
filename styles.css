@@ -103,15 +103,6 @@ h1 {
     text-align: left;
 }
 
-/* Media query for mobile devices */
-@media screen and (max-width: 600px) {
-    .description {
-        font-size: var(--font-size-mobile);
-        padding: var(--padding-mobile);
-        /* Additional mobile-specific styles can go here */
-    }
-}
-
 .content {
     overflow: hidden;
     position: relative;
@@ -217,6 +208,25 @@ h1 {
 .social-link i {
     margin-right: 8px;
 }
+
+
+/* Media query for mobile devices */
+@media screen and (max-width: 600px) {
+    .description {
+        font-size: var(--font-size-mobile);
+        padding: var(--padding-mobile);
+        /* Additional mobile-specific styles can go here */
+    }
+
+    .banner {
+        width: 80vw;
+    }
+
+    .separator {
+        width: 90vw;
+    }
+}
+
 
 @keyframes move {
     100% {
